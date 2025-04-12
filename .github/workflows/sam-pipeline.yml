@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Environment to deploy to (dev or prod)'
+        description: 'Environment to deploy to (development or production)'
         required: true
         default: 'dev'
         type: choice
