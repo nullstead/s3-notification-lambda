@@ -60,6 +60,6 @@ def lambda_handler(event, context):
         return {
             'statusCode': 500,
             'body': json.dumps({
-                'message': f'Error: {str(e)}'
+                'message': f'Error!: {str(e)}'
             })
         }
