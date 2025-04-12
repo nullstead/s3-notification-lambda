@@ -74,19 +74,3 @@ To remove all deployed resources:
 sam delete --config-env dev  # For development environment
 sam delete --config-env prod  # For production environment
 ```
-
-## Project Structure
-
-s3-notification-service/
-├── .github/
-│   └── workflows/
-│       └── sam-pipeline.yml
-├── src/
-│   └── handlers/
-│       └── notification_handler.py
-├── samconfig.toml
-├── template.yaml
-├── env/
-│   ├── dev.json
-│   └── prod.json
-└── README.md
