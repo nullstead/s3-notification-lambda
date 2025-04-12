@@ -70,7 +70,7 @@ Resources:
       FunctionName: !Sub '${Environment}-s3-notification-function'
       CodeUri: src/handlers/
       Handler: notification_handler.lambda_handler
-      Runtime: python3.1
+      Runtime: python3.9
       Timeout: 30
       MemorySize: 128
       Environment:
